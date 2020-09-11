@@ -56,12 +56,23 @@ namespace ProgramozasiTetelek
             }
             else Console.WriteLine("Nincs 69");
         }
+
+        static void Kivalasztas()
+        {
+            int i = 0;
+            while (i<tomb.Length && tomb[i] != 50)
+            {
+                i++;
+            }
+            Console.WriteLine("Az 50 a {0}. helyen van", i+1);
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             Osszegzes();
             Megszamolas();
             Eldontes();
+            Kivalasztas();
 
             Console.ReadKey();
         }
