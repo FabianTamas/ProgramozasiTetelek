@@ -80,6 +80,21 @@ namespace ProgramozasiTetelek
             }
             else Console.WriteLine("Nincs");
         }
+
+        static void Maximum()
+        {
+            int max = tomb[0];
+            for (int i = 1; i < tomb.Length; i++)
+            {
+                if (tomb[i]>max)
+                {
+                    max = tomb[i];
+                }
+            }
+            //Console.WriteLine(tomb.Max());
+
+            Console.WriteLine("Tömb legnagyobb eleme: {0}", max);
+        }
         static void Main(string[] args)
         {
             TombKiiras();
@@ -88,6 +103,7 @@ namespace ProgramozasiTetelek
             Eldontes();
             Kivalasztas();
             Kereses();
+            Maximum();
 
             Console.ReadKey();
         }
