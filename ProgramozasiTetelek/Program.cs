@@ -46,20 +46,15 @@ namespace ProgramozasiTetelek
         static void Eldontes()
         {
             int i = 0;
-            bool vane = false;
-            while (i<=tomb.Length && vane)
+            while (i<tomb.Length && i !=69)
             {
-                if (tomb[i] == 69)
-                {
-                    vane = true;
-                    Console.WriteLine("van");
-                }
                 i++;
             }
-            if (vane)
+            if (i<tomb.Length)
             {
-                Console.WriteLine("nincs");
+                Console.WriteLine("Van 69");
             }
+            else Console.WriteLine("Nincs 69");
         }
         static void Main(string[] args)
         {
