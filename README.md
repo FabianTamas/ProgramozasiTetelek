@@ -6,19 +6,19 @@
   - 12, 7, 2, 4, 45, 99, 1, 8, 95, 50
 - A tömb az összes metódusban látható legyen
 - TombKiiras() metódus létrehozása
-  - nem ad vissza értéket
-  - nincs paramétere
-  - a tömb elemeit vesszõvel elválasztva egy sorban a console-ra írja
+  - Nem ad vissza értéket
+  - Nincs paramétere
+  - A tömb elemeit vesszõvel elválasztva egy sorban a console-ra írja
 
 ## Összegzés
 - Osszegzes() metódus létrehozása
-- összegzés tétele a tömbön
-- eredmény kiírása a console-ra
+- Összegzés tétele a tömbön
+- Eredmény kiírása a console-ra
 
 ## Megszámolás
 - Megszamolas() metódus létrehozása
 - Hány 3-al osztható elem van a tömbben?
-- eredmény kiírása a console-ra
+- Eredmény kiírása a console-ra
 
 ## Eldöntés
 - Eldontes() metódus létrehozása
@@ -29,3 +29,7 @@
 - Kivalasztas() metódus létrehozása
 - Hányadik az 50?
 - Kiírni a helyét a tömbben
+
+## Keresés (lineáris)
+- Kereses() metódus létrehozás
+- Van-e benne 50, és ha van hányadik?
