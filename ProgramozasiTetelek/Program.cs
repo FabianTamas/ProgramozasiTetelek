@@ -42,11 +42,31 @@ namespace ProgramozasiTetelek
             }
             Console.WriteLine("3-al osztható számok: {0}", db);
         }
+
+        static void Eldontes()
+        {
+            int i = 0;
+            bool vane = false;
+            while (i<=tomb.Length && vane)
+            {
+                if (tomb[i] == 69)
+                {
+                    vane = true;
+                    Console.WriteLine("van");
+                }
+                i++;
+            }
+            if (vane)
+            {
+                Console.WriteLine("nincs");
+            }
+        }
         static void Main(string[] args)
         {
             TombKiiras();
             Osszegzes();
             Megszamolas();
+            Eldontes();
 
             Console.ReadKey();
         }
